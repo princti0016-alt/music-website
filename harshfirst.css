@@ -1,0 +1,82 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Moving Header */
+marquee {
+    background-color: #222;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Main Content */
+p {
+    background-color: rgba(255,255,255,0.9);
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Song List */
+dl {
+    width: 60%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+dt {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+dd {
+    margin: 10px 0 20px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Page Title */
+h1 {
+    color: white;
+    margin-top: 20px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode p,
+.dark-mode dl {
+    background-color: #222;
+    color: white;
+}
+
